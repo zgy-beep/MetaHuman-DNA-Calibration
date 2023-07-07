@@ -1,16 +1,20 @@
 ## DNA library
 
-DNA library comes bundled together in this repository as one of the dependencies of DNACalib.
-It provides the core functionality of reading and writing MetaHuman DNA files.
-It enables the user to query and change the information contained in them.
+DNA库作为DNACalib的一个依赖项捆绑在一起。
+它提供了读写MetaHuman DNA文件的核心功能。
+它允许用户查询和更改其中包含的信息。
 
-DNACalib provides a set of useful commands for editing MetaHuman DNA files. Under the hood, it makes use of the DNA library. Some commands just encapsulate a few calls to DNA library, while others contain additional logic.
-While users could do all of that on their own using only DNA library, these commands aim to make their lives easier.
+
+DNACalib为编辑MetaHuman DNA文件提供了一组有用的命令。在底层，它利用了DNA库。有些命令只是封装了对DNA库的一些调用，而有些则包含了额外的逻辑。
+虽然用户只需使用DNA库就可以完成所有这些操作，但这些命令的目的是让他们的生活更轻松。
+
 
 ## MetaHuman DNA
 
-MetaHuman DNA is a file format which is designed to store the complete description of a 3D object's rig and geometry. 
-Relying only on a MetaHuman DNA file, it is possible to reconstruct the complete mesh of an object and have it fully rigged, ready to be animated. In practice, MetaHuman DNA files are used to store only the faces of human characters.
+MetaHuman DNA是一种文件格式，旨在存储3D物体的rig和几何形状的完整描述。
+仅依靠MetaHuman DNA文件，就可以重建一个物体的完整网格，并将其完全装配起来，准备制作动画。
+实际上，MetaHuman DNA文件只用于存储人类角色的面孔。
+
 
 ### Layers
 
